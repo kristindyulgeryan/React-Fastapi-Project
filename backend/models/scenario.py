@@ -3,7 +3,7 @@ from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 
 from backend.db.database import Base
-from backend.routers import scenario
+
 
 class Scenario(Base):
     __tablename__ = "scenarios"
