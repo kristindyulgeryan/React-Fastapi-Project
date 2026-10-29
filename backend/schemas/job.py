@@ -20,3 +20,5 @@ class ScenarioJobResponse(BaseModel):
 
 class ScenarioJobCreate(ScenarioJobBase):
     pass
+
+
